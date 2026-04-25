@@ -18,13 +18,13 @@
     <nav class="navbar">
         <div class="logo">
             <img src="/images/logo.png" alt="Логотип" class="logo-image">
-            <span class="mainname" style="font-family: 'Roboto', sans-serif;">WEBSHOP</span>
+            <span class="mainname" style="font-family: 'Roboto', sans-serif;">WebShop</span>
         </div>
         <ul class="nav-links">
             <li><a href="#home">Главная</a></li>
             <li><a href="#about">О нас</a></li>
             <li><a href="#products">Каталог</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a href="#footer">Контакты</a></li>
         </ul>
     </nav>
 </header>
@@ -33,57 +33,58 @@
     <main>
         <section id="home" class="home-section">
             <div class="hero-content">
-                <h1>Добро пожаловать в WEBSHOP</h1>
+                <h1>Добро пожаловать в WebShop</h1>
                 <p>Лучший выбор качественных товаров по доступным ценам</p>
                 <a href="#products" class="cta-button">Перейти в каталог</a>
             </div>
         </section>
+        <section id="about" class="about-section">
+            <h2>О нас</h2>
+            <p class="about-intro">Почему покупатели выбирают WebShop</p>
+            <div class="features-container">
+                <div class="feature-card">
+                    <h3>Широкий выбор</h3>
+                    <p>У нас вы найдёте товары для дома, спорта, электроники и подарков — всё в одном месте.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Гарантия качества</h3>
+                    <p>Мы проверяем каждый товар и предлагаем только надежные бренды с честной ценой.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Поддержка 24/7</h3>
+                    <p>Наши специалисты всегда готовы помочь с выбором и ответить на любые вопросы.</p>
+                </div>
+            </div>
+        </section>
         <section id="products" class="products-section">
             <h2>Наши товары</h2>
+            <div class="search-container">
+                <input type="text" placeholder="Поиск товаров..." class="search-input">
+                <button class="search-button">Поиск</button>
+            </div>
             <div id="product-list" class="product-list">
                 <!-- Товары будут добавлены сюда с помощью JavaScript -->
             </div>
         </section>
-        <section id="about" class="about-section">
-            <h2>О нас</h2>
-            <p class="about-intro">Отзывы наших довольных клиентов</p>
-            <div class="reviews-container">
-                <div class="review-card">
-                    <div class="stars">
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                    </div>
-                    <p class="review-text">"Отличный сервис и высокое качество товаров. Я очень доволен покупкой. Рекомендую всем!"</p>
-                    <p class="review-author">- Иван П.</p>
-                </div>
-                <div class="review-card">
-                    <div class="stars">
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                    </div>
-                    <p class="review-text">"Быстрая доставка, отличная упаковка и деньги вернули без проблем. Спасибо!"</p>
-                    <p class="review-author">- Марина С.</p>
-                </div>
-                <div class="review-card">
-                    <div class="stars">
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                    </div>
-                    <p class="review-text">"Прекрасный выбор товаров по адекватным ценам. Обслуживание на высоте!"</p>
-                    <p class="review-author">- Дмитрий К.</p>
-                </div>
-            </div>
-        </section>
     </main>
+    <footer id="footer" class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <p>Email: info@webshop.ru</p>
+                <p>Телефон: +7 (123) 456-78-90</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 WebShop. Все права защищены.</p>
+        </div>
+    </footer>
+    <div class="floating-cart">
+        <a href="#" class="cart-link">
+            <span class="cart-icon">🛒</span>
+            <span class="cart-count">0</span>
+        </a>
+    </div>
 </body>
 
 </html>
