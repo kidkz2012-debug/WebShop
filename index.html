@@ -1,0 +1,89 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WebShop</title>
+    <meta name="description" content="Пример задания">
+
+    <!-- Шрифты из гугла -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/style.css" type="text/css"> <!-- Стили CSS -->
+    <link rel="icon" href="/images/logo.png"> <!-- Иконка -->
+    <script defer="defer" src="/script.js"></script> <!-- JS скрипт -->
+    <!-- defer загрузит JS-файл только после загрузки body -->
+</head>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/images/logo.png" alt="Логотип" class="logo-image">
+            <span class="mainname" style="font-family: 'Roboto', sans-serif;">WEBSHOP</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#products">Каталог</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <main>
+        <section id="home" class="home-section">
+            <div class="hero-content">
+                <h1>Добро пожаловать в WEBSHOP</h1>
+                <p>Лучший выбор качественных товаров по доступным ценам</p>
+                <a href="#products" class="cta-button">Перейти в каталог</a>
+            </div>
+        </section>
+        <section id="products" class="products-section">
+            <h2>Наши товары</h2>
+            <div id="product-list" class="product-list">
+                <!-- Товары будут добавлены сюда с помощью JavaScript -->
+            </div>
+        </section>
+        <section id="about" class="about-section">
+            <h2>О нас</h2>
+            <p class="about-intro">Отзывы наших довольных клиентов</p>
+            <div class="reviews-container">
+                <div class="review-card">
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="review-text">"Отличный сервис и высокое качество товаров. Я очень доволен покупкой. Рекомендую всем!"</p>
+                    <p class="review-author">- Иван П.</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="review-text">"Быстрая доставка, отличная упаковка и деньги вернули без проблем. Спасибо!"</p>
+                    <p class="review-author">- Марина С.</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="review-text">"Прекрасный выбор товаров по адекватным ценам. Обслуживание на высоте!"</p>
+                    <p class="review-author">- Дмитрий К.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Смартфон Samsung S26 Ultra 1TB",
+        "price": "1.000.000",
+        "description": "Современный смартфон с отличной камерой",
+        "image": "/images/s26ultra.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Смартфон Iphone 17 Pro Max 256GB",
+        "price": "900.000",
+        "description": "Современный смартфон с отличной камерой",
+        "image": "/images/iphone17promax.webp"
+    },
+    {
+        "id": 3,
+        "name": "Смарт-часы Samsung Galaxy Watch 8",
+        "price": "150.000",
+        "description": "Смарт-часы с продвинутыми функциями здоровья",
+        "image": "/images/samsunggalaxywatch5pro.webp"
+    },
+    {
+        "id": 4,
+        "name": "Наушники Apple AirPods Pro 3",
+        "price": "200.000",
+        "description": "Беспроводные наушники с шумоподавлением",
+        "image": "/images/airpodspro3.png"
+    },
+    {
+        "id": 5,
+        "name": "Ноутбук Lenovo Legion 9",
+        "price": "2.700.000",
+        "description": "Мощный ноутбук для работы и игр",
+        "image": "/images/lenovolegion9.webp"
+    },
+    {
+        "id": 6,
+        "name": "Монитор Asus 27-дюймовый",
+        "price": "120.000",
+        "description": "27-дюймовый монитор с высоким разрешением",
+        "image": "/images/asusmonitorvu27.webp"
+    },
+    {
+        "id": 7,
+        "name": "Клавиатура Razer BlackWidow V4 Pro",
+        "price": "80.000",
+        "description": "Механическая клавиатура с RGB-подсветкой",
+        "image": "/images/razerblackwidowv4pro.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Мышь HyperX Pulsefire Haste 2 Wireless", 
+        "price": "50.000",
+        "description": "Игровая мышь с высокой точностью",
+        "image": "/images/hyperxpulsefirehaste2wireless.jpg"
+    }
+]
